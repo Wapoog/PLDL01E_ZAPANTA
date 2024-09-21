@@ -51,3 +51,4 @@ print("Final project grade:",final_project)
 print("Final exam rating:",final_exam_ratings)
 print("Final grades:",final_grade)
 print("Equivalent grade:",equivalent_grade)
+
