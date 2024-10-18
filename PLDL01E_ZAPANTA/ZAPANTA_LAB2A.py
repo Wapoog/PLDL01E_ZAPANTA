@@ -1,7 +1,7 @@
 #Initialization of Final grade, equivalent grade, and Student Name
 final_grade = 0
 equivalent_grade = 0
-student_name = ""
+
 
 #Input and read the student's name, final quizzes, final research/assignment, final project, and final exam ratings
 student_name = str(input("Enter the student's name: "))
@@ -11,7 +11,7 @@ final_project = float(input("Enter the student's final project grade: "))
 final_exam_ratings = float(input("Enter the student's final exam ratings: "))
 
 #setting the formula for the final grade of the student
-final_grade = (0.30 * final_quizzes) + (0.10 * final_research_assignment) + (0.40 * final_exam_ratings) + (0.20 * final_project)
+Final_grade = (0.30 * final_quizzes) + (0.10 * final_research_assignment) + (0.40 * final_exam_ratings) + (0.20 * final_project)
 
 #Setting the formula for determining the equivalent grade using the final grade
 if 98 <= final_grade < 100:
