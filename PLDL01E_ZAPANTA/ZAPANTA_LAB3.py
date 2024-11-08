@@ -20,7 +20,7 @@ Honorarium = float(input("Enter the Amount of honorarium: = "))
 Hours_of_absent = float(input("Enter the Number of Hours Absent: = "))
 Hours_tardy = float(input("Enter the number of Hours Tardy: = "))
 
-# Compute Basic Pay and Overtime Pay
+# Basic Pay and Overtime Pay
 Basic_pay = Rate_per_hour * Hours_per_payday
 Overtime_pay = Rate_per_hour * Hours_overtime
 
