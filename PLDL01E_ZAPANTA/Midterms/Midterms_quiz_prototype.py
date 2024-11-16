@@ -25,6 +25,7 @@ class ServiceInfo:
 
     def display(self):
         print("Service Information:")
+        print("-" * 60)
         print(f"  Service ID: {self.service_id}")
         print(f"  Rate: {self.rate}")
         print(f"  Contract in the Name of: {self.contract_name}")
@@ -44,6 +45,7 @@ class BillingInfo:
 
     def display(self):
         print("Billing Information:")
+        print("-" * 60)
         print(f"  Customer Type: {self.customer_type}")
         print(f"  Bill Date: {self.bill_date}")
         print(f"  Meter Reading Date: {self.meter_reading_date}")
@@ -75,6 +77,7 @@ class ElectricityBill:
 
     def display(self):
         print("Electricity Bill Charges:")
+        print("-" * 60)
         print(f"  Previous Balance: PHP {self.previous_balance}")
         print(f"  Generation Charge: PHP {self.generation}")
         print(f"  Transmission Charge: PHP {self.transmission}")
